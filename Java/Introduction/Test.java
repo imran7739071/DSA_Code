@@ -1,6 +1,11 @@
 package Introduction;
 import java.util.Scanner;
 
+//git add .
+//git commit -m "Updated code"
+//git push
+
+
 public class Test{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
