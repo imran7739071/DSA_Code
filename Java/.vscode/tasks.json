@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and Run Java with IO",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "javac ${file} && java -cp ${workspaceFolder} Introduction.Test < ${workspaceFolder}\\input.txt > ${workspaceFolder}\\output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
