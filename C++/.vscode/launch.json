@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA_Code/C++",
-      "program": "d:/DSA_Code/C++/build/Debug/outDebug",
+      "cwd": "d:/DSA_Code/C++/Mathematics",
+      "program": "d:/DSA_Code/C++/Mathematics/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

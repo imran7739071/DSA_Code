@@ -7,8 +7,11 @@
             "command": "cmd.exe",
             "args": [
                 "/c",
-                "javac ${file} && java -cp ${workspaceFolder} Introduction.Test < ${workspaceFolder}\\input.txt > ${workspaceFolder}\\output.txt"
+                "javac ${file} && if \"${relativeFileDirname}\"==\".\" (java -cp ${workspaceFolder} ${fileBasenameNoExtension}) else (java -cp ${workspaceFolder} ${relativeFileDirname}.${fileBasenameNoExtension}) < ${workspaceFolder}\\input.txt > ${workspaceFolder}\\output.txt && del ${fileDirname}\\*.class"
             ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
