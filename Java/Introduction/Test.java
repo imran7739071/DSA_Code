@@ -21,8 +21,9 @@ public class Test{
         int sum = a + b;
 
         // Giving output
-        System.out.println("Sum = " + sum);
+        System.out.println("Sum : " + sum);
 
         sc.close();
     }
 }
+
